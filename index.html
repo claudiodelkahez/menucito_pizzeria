@@ -1,41 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Picsa 99 | Menucito</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Picsa 99 | Menucito</title>
 
-        <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
-        <script
-            src="https://kit.fontawesome.com/257363870e.js"
-            crossorigin="anonymous"
-        ></script>
-
-        
-        <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-        <link rel="manifest" href="./favicon/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-
+    <script
+        src="https://kit.fontawesome.com/257363870e.js"
+        crossorigin="anonymous"
+    ></script>
 </head>
 
     <body>
@@ -43,18 +23,17 @@
         <header>  
            
             <a class="cabecera" href="#"><img class="header_img" src="./imgs/logopizza.png" alt="thefriendsburgers logo"></a>
-
-            <!-- <h1 ><a  href="../favicon.html" >THE FRIENDS BURGERS</a></h1> -->
             <p class="cabecera_descripcion">Pizzas caseras 🍕</p>
             <p class="cabecera_descripcion">📆 Martes a Domingo (20:00 a 23:00hs)</p>
-            <p class="cabecera_descripcion" >🛵 Loma Hermosa | Churruca | Libertador | Podestá</p>
+            <p class="cabecera_descripcion" >🛵 Loma Hermosa | Churruca | <br> Libertador | Podestá</p>
             <p class="cabecera_descripcion" >💳 Efectivo / Mercadopago / Ualá</p>
         </header>
-        
+
         <section>
-            <article class="header">
-            <p class="sticky_titulo">PIZZAS</p>
-           </article>
+            <!-- PIZZAS -->
+                <div class="titulo-seccion">
+                <h2>NUESTRAS PIZZAS</h2>
+                </div>
             <!-- MOZZARELLA -->
                 <div class="producto">
                     <!-- imagen producto -->
@@ -71,7 +50,7 @@
                     <div class="producto_detalles">
                     <!-- titulo producto -->
                     <h2 class="producto_titulo" id="producto1">MOZZARELLA</h2>
-                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano</p>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
                     <p class="producto_precio">$480</p>
                     </div>  
     
@@ -83,13 +62,13 @@
                             <a class="popup__close" href="#producto1">X</a>
                             <div class="contenido_modal">
                                 <div class="contenedor-imagen_modal">
-                                    <img src="./imgs/rucula.jpg" alt="imagen de una pizza" />
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
                                 </div>
     
                                 <div class="modal-info">
                                     <div class="modal_descripcion">
-                                        <h2 class="modal_descripcion-titulo">SUPER MOZZARELLA</h2>
-                                        <p class="modal_descripcion-producto">Salsa de tomate, 500g de mozzarella, aceitunas y  orégano.</p>
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
                                     </div>
                                   
                                 </div>
@@ -98,7 +77,7 @@
                     </div>
                 </div>
             <!-- JAMON Y MORRON -->
-            <div class="producto">
+                <div class="producto">
                     <!-- imagen producto -->
                     <a class="button" href="#modal2">
                         <div class="contenedor-producto_imagen">
@@ -119,10 +98,10 @@
     
                     <!-- ventana modal -->
                     <div class="popup" id="modal2">
-                        <a class="popup__overlay" href="#producto1"></a>
+                        <a class="popup__overlay" href="#producto2"></a>
                         <div class="popup__wrapper">
                             <div class="popup__close-background"></div>
-                            <a class="popup__close" href="#producto1">X</a>
+                            <a class="popup__close" href="#producto2">X</a>
                             <div class="contenido_modal">
                                 <div class="contenedor-imagen_modal">
                                     <img src="./imgs/pizzamorron.jpg" alt="imagen de una pizza" />
@@ -154,17 +133,17 @@
                     <!-- descripcion producto -->
                     <div class="producto_detalles">
                     <!-- titulo producto -->
-                    <h2 class="producto_titulo" id="producto1">NAPOLITANA</h2>
+                    <h2 class="producto_titulo" id="producto3">NAPOLITANA</h2>
                     <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, tomate, ajo, aceitunas y orégano.</p>
                     <p class="producto_precio">$600</p>
                     </div>  
     
                     <!-- ventana modal -->
                     <div class="popup" id="modal3">
-                        <a class="popup__overlay" href="#producto1"></a>
+                        <a class="popup__overlay" href="#producto3"></a>
                         <div class="popup__wrapper">
                             <div class="popup__close-background"></div>
-                            <a class="popup__close" href="#producto1">X</a>
+                            <a class="popup__close" href="#producto3">X</a>
                             <div class="contenido_modal">
                                 <div class="contenedor-imagen_modal">
                                     <img src="./imgs/napolitana.jpg" alt="imagen de una pizza" />
@@ -181,7 +160,7 @@
                         </div>
                     </div>
                 </div>
-            <!-- FUGAZZETA -->
+            <!-- FUGAZZETA 4-->
                 <div class="producto">
                     <!-- imagen producto -->
                     <a class="button" href="#modal4">
@@ -196,17 +175,17 @@
                     <!-- descripcion producto -->
                     <div class="producto_detalles">
                     <!-- titulo producto -->
-                    <h2 class="producto_titulo" id="producto1">FUGAZZETA</h2>
+                    <h2 class="producto_titulo" id="producto4">FUGAZZETA</h2>
                     <p class="producto_texto-descripcion">Salsa de tomate, cebolla, aceitunas y orégano.</p>
                     <p class="producto_precio">$600</p>
                     </div>  
     
                     <!-- ventana modal -->
                     <div class="popup" id="modal4">
-                        <a class="popup__overlay" href="#producto1"></a>
+                        <a class="popup__overlay" href="#producto4"></a>
                         <div class="popup__wrapper">
                             <div class="popup__close-background"></div>
-                            <a class="popup__close" href="#producto1">X</a>
+                            <a class="popup__close" href="#producto4">X</a>
                             <div class="contenido_modal">
                                 <div class="contenedor-imagen_modal">
                                     <img src="./imgs/fugazzeta.jpg" alt="imagen de una pizza" />
@@ -238,17 +217,17 @@
                     <!-- descripcion producto -->
                     <div class="producto_detalles">
                     <!-- titulo producto -->
-                    <h2 class="producto_titulo" id="producto1">HUEVO</h2>
+                    <h2 class="producto_titulo" id="producto5">HUEVO</h2>
                     <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, huevo duro, aceitunas y orégano.</p>
                     <p class="producto_precio">$600</p>
                     </div>  
     
                     <!-- ventana modal -->
                     <div class="popup" id="modal5">
-                        <a class="popup__overlay" href="#producto1"></a>
+                        <a class="popup__overlay" href="#producto5"></a>
                         <div class="popup__wrapper">
                             <div class="popup__close-background"></div>
-                            <a class="popup__close" href="#producto1">X</a>
+                            <a class="popup__close" href="#producto5">X</a>
                             <div class="contenido_modal">
                                 <div class="contenedor-imagen_modal">
                                     <img src="./imgs/pizzahuevo.jpg" alt="imagen de una pizza" />
@@ -280,17 +259,17 @@
                     <!-- descripcion producto -->
                     <div class="producto_detalles">
                     <!-- titulo producto -->
-                    <h2 class="producto_titulo" id="producto1">CALABRESA</h2>
+                    <h2 class="producto_titulo" id="producto6">CALABRESA</h2>
                     <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, longaniza, aceitunas y  orégano.</p>
                     <p class="producto_precio">$670</p>
                     </div>  
     
                     <!-- ventana modal -->
                     <div class="popup" id="modal6">
-                        <a class="popup__overlay" href="#producto1"></a>
+                        <a class="popup__overlay" href="#producto6"></a>
                         <div class="popup__wrapper">
                             <div class="popup__close-background"></div>
-                            <a class="popup__close" href="#producto1">X</a>
+                            <a class="popup__close" href="#producto6">X</a>
                             <div class="contenido_modal">
                                 <div class="contenedor-imagen_modal">
                                     <img src="./imgs/calabresa.jpg" alt="imagen de una pizza" />
@@ -306,7 +285,6 @@
                             </div>
                         </div>
                     </div>
-            <!-- CALABRESA -->
                 </div>
             <!-- PANCETA 7-->
                 <div class="producto">
@@ -323,20 +301,20 @@
                     <!-- descripcion producto -->
                     <div class="producto_detalles">
                     <!-- titulo producto -->
-                    <h2 class="producto_titulo" id="producto1">PANCETA</h2>
+                    <h2 class="producto_titulo" id="producto7">PANCETA</h2>
                     <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, panceta, aceitunas y orégano.</p>
                     <p class="producto_precio">$670</p>
                     </div>  
     
                     <!-- ventana modal -->
                     <div class="popup" id="modal7">
-                        <a class="popup__overlay" href="#producto1"></a>
+                        <a class="popup__overlay" href="#producto7"></a>
                         <div class="popup__wrapper">
                             <div class="popup__close-background"></div>
-                            <a class="popup__close" href="#producto1">X</a>
+                            <a class="popup__close" href="#producto7">X</a>
                             <div class="contenido_modal">
                                 <div class="contenedor-imagen_modal">
-                                    <img src="./imgs/verdeo.jpg" alt="imagen de una pizza" />
+                                    <img src="./imgs/pacenta.jpg" alt="imagen de una pizza" />
                                 </div>
     
                                 <div class="modal-info">
@@ -353,7 +331,7 @@
             <!-- CAPRESEE 8-->
                  <div class="producto">
                 <!-- imagen producto -->
-                <a class="button" href="#modal1">
+                <a class="button" href="#modal8">
                     <div class="contenedor-producto_imagen">
                         <img
                             class="producto_imagen"
@@ -365,20 +343,20 @@
                 <!-- descripcion producto -->
                 <div class="producto_detalles">
                 <!-- titulo producto -->
-                <h2 class="producto_titulo" id="producto1">CAPRESE</h2>
+                <h2 class="producto_titulo" id="producto8">CAPRESE</h2>
                 <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, tomate, albahaca y aceitunas.</p>
                 <p class="producto_precio">$670</p>
                 </div>  
 
                 <!-- ventana modal -->
-                <div class="popup" id="modal1">
-                    <a class="popup__overlay" href="#producto1"></a>
+                <div class="popup" id="modal8">
+                    <a class="popup__overlay" href="#producto8"></a>
                     <div class="popup__wrapper">
                         <div class="popup__close-background"></div>
-                        <a class="popup__close" href="#producto1">X</a>
+                        <a class="popup__close" href="#producto8">X</a>
                         <div class="contenido_modal">
                             <div class="contenedor-imagen_modal">
-                                <img src="./imgs/rucula.jpg" alt="imagen de una pizza" />
+                                <img src="./imgs/caprese.jpg" alt="imagen de una pizza" />
                             </div>
 
                             <div class="modal-info">
@@ -407,17 +385,17 @@
                 <!-- descripcion producto -->
                 <div class="producto_detalles">
                 <!-- titulo producto -->
-                <h2 class="producto_titulo" id="producto1">SUPER MOZZARELLA</h2>
+                <h2 class="producto_titulo" id="producto9">SUPER MOZZARELLA</h2>
                 <p class="producto_texto-descripcion">Salsa de tomate, 500g de mozzarella, aceitunas y orégano.</p>
                 <p class="producto_precio">$480</p>
                 </div>  
 
                 <!-- ventana modal -->
-                <div class="popup" id="modal1">
-                    <a class="popup__overlay" href="#producto1"></a>
+                <div class="popup" id="modal9">
+                    <a class="popup__overlay" href="#producto9"></a>
                     <div class="popup__wrapper">
                         <div class="popup__close-background"></div>
-                        <a class="popup__close" href="#producto1">X</a>
+                        <a class="popup__close" href="#producto9">X</a>
                         <div class="contenido_modal">
                             <div class="contenedor-imagen_modal">
                                 <img src="./imgs/suppermuzza.jpg" alt="imagen de una pizza" />
@@ -457,17 +435,17 @@
                 <!-- descripcion producto -->
                 <div class="producto_detalles">
                 <!-- titulo producto -->
-                <h2 class="producto_titulo" id="producto1">COCHINA</h2>
+                <h2 class="producto_titulo" id="producto14">COCHINA</h2>
                 <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, salchichas, papas fritas y aceitunas.</p>
                 <p class="producto_precio">$800</p>
                 </div>  
 
                 <!-- ventana modal -->
                 <div class="popup" id="modal14">
-                    <a class="popup__overlay" href="#producto1"></a>
+                    <a class="popup__overlay" href="#producto14"></a>
                     <div class="popup__wrapper">
                         <div class="popup__close-background"></div>
-                        <a class="popup__close" href="#producto1">X</a>
+                        <a class="popup__close" href="#producto14">X</a>
                         <div class="contenido_modal">
                             <div class="contenedor-imagen_modal">
                                 <img src="./imgs/cochina.jpg" alt="imagen de una pizza" />
@@ -490,9 +468,564 @@
             
             <!-- GASEOSA -->
         </section>
+        <!-- EMPANADAS -->
+        
+        <section>
+            <div class="titulo-seccion">
+                <h2>NUESTRAS EMPANADAS</h2>
+            </div>
+
+                <!-- CARNE SUAVE-->
+                <div class="producto">
+                    <!-- imagen producto -->
+                    <a class="button" href="#modal1">
+                        <div class="contenedor-producto_imagen">
+                            <img
+                                class="producto_imagen"
+                                src="./imgs/empanadas.jpg" 
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                    <!-- descripcion producto -->
+                    <div class="producto_detalles">
+                    <!-- titulo producto -->
+                    <h2 class="producto_titulo" id="producto1">CARNE SUAVE</h2>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                    <p class="producto_precio">$480</p>
+                    </div>  
+            
+                    <!-- ventana modal -->
+                    <div class="popup" id="modal1">
+                        <a class="popup__overlay" href="#producto1"></a>
+                        <div class="popup__wrapper">
+                            <div class="popup__close-background"></div>
+                            <a class="popup__close" href="#producto1">X</a>
+                            <div class="contenido_modal">
+                                <div class="contenedor-imagen_modal">
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
+                                </div>
+            
+                                <div class="modal-info">
+                                    <div class="modal_descripcion">
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARNE CUCHILLO -->
+                <div class="producto">
+                    <!-- imagen producto -->
+                    <a class="button" href="#modal1">
+                        <div class="contenedor-producto_imagen">
+                            <img
+                                class="producto_imagen"
+                                src="./imgs/empanadas.jpg" 
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                    <!-- descripcion producto -->
+                    <div class="producto_detalles">
+                    <!-- titulo producto -->
+                    <h2 class="producto_titulo" id="producto1">CARNE CUCHILLO</h2>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                    <p class="producto_precio">$480</p>
+                    </div>  
+            
+                    <!-- ventana modal -->
+                    <div class="popup" id="modal1">
+                        <a class="popup__overlay" href="#producto1"></a>
+                        <div class="popup__wrapper">
+                            <div class="popup__close-background"></div>
+                            <a class="popup__close" href="#producto1">X</a>
+                            <div class="contenido_modal">
+                                <div class="contenedor-imagen_modal">
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
+                                </div>
+            
+                                <div class="modal-info">
+                                    <div class="modal_descripcion">
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARNE PICANTE -->
+                <div class="producto">
+                    <!-- imagen producto -->
+                    <a class="button" href="#modal1">
+                        <div class="contenedor-producto_imagen">
+                            <img
+                                class="producto_imagen"
+                                src="./imgs/empanadas.jpg" 
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                    <!-- descripcion producto -->
+                    <div class="producto_detalles">
+                    <!-- titulo producto -->
+                    <h2 class="producto_titulo" id="producto1">CARNE PICANTE</h2>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                    <p class="producto_precio">$480</p>
+                    </div>  
+            
+                    <!-- ventana modal -->
+                    <div class="popup" id="modal1">
+                        <a class="popup__overlay" href="#producto1"></a>
+                        <div class="popup__wrapper">
+                            <div class="popup__close-background"></div>
+                            <a class="popup__close" href="#producto1">X</a>
+                            <div class="contenido_modal">
+                                <div class="contenedor-imagen_modal">
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
+                                </div>
+            
+                                <div class="modal-info">
+                                    <div class="modal_descripcion">
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ROQUEFORT CON JAMON -->
+                <div class="producto">
+                    <!-- imagen producto -->
+                    <a class="button" href="#modal1">
+                        <div class="contenedor-producto_imagen">
+                            <img
+                                class="producto_imagen"
+                                src="./imgs/empanadas.jpg" 
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                    <!-- descripcion producto -->
+                    <div class="producto_detalles">
+                    <!-- titulo producto -->
+                    <h2 class="producto_titulo" id="producto1">ROQUEFORT CON JAMON</h2>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                    <p class="producto_precio">$480</p>
+                    </div>  
+            
+                    <!-- ventana modal -->
+                    <div class="popup" id="modal1">
+                        <a class="popup__overlay" href="#producto1"></a>
+                        <div class="popup__wrapper">
+                            <div class="popup__close-background"></div>
+                            <a class="popup__close" href="#producto1">X</a>
+                            <div class="contenido_modal">
+                                <div class="contenedor-imagen_modal">
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
+                                </div>
+            
+                                <div class="modal-info">
+                                    <div class="modal_descripcion">
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- POLLO -->
+                <div class="producto">
+                    <!-- imagen producto -->
+                    <a class="button" href="#modal1">
+                        <div class="contenedor-producto_imagen">
+                            <img
+                                class="producto_imagen"
+                                src="./imgs/empanadas.jpg" 
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                    <!-- descripcion producto -->
+                    <div class="producto_detalles">
+                    <!-- titulo producto -->
+                    <h2 class="producto_titulo" id="producto1">POLLO</h2>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                    <p class="producto_precio">$480</p>
+                    </div>  
+            
+                    <!-- ventana modal -->
+                    <div class="popup" id="modal1">
+                        <a class="popup__overlay" href="#producto1"></a>
+                        <div class="popup__wrapper">
+                            <div class="popup__close-background"></div>
+                            <a class="popup__close" href="#producto1">X</a>
+                            <div class="contenido_modal">
+                                <div class="contenedor-imagen_modal">
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
+                                </div>
+            
+                                <div class="modal-info">
+                                    <div class="modal_descripcion">
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- POLLO AL VERDEO -->
+                <div class="producto">
+                    <!-- imagen producto -->
+                    <a class="button" href="#modal1">
+                        <div class="contenedor-producto_imagen">
+                            <img
+                                class="producto_imagen"
+                                src="./imgs/empanadas.jpg" 
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                    <!-- descripcion producto -->
+                    <div class="producto_detalles">
+                    <!-- titulo producto -->
+                    <h2 class="producto_titulo" id="producto1">POLLO AL VERDEO</h2>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                    <p class="producto_precio">$480</p>
+                    </div>  
+            
+                    <!-- ventana modal -->
+                    <div class="popup" id="modal1">
+                        <a class="popup__overlay" href="#producto1"></a>
+                        <div class="popup__wrapper">
+                            <div class="popup__close-background"></div>
+                            <a class="popup__close" href="#producto1">X</a>
+                            <div class="contenido_modal">
+                                <div class="contenedor-imagen_modal">
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
+                                </div>
+            
+                                <div class="modal-info">
+                                    <div class="modal_descripcion">
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HUMITA -->
+                <div class="producto">
+                    <!-- imagen producto -->
+                    <a class="button" href="#modal1">
+                        <div class="contenedor-producto_imagen">
+                            <img
+                                class="producto_imagen"
+                                src="./imgs/empanadas.jpg" 
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                    <!-- descripcion producto -->
+                    <div class="producto_detalles">
+                    <!-- titulo producto -->
+                    <h2 class="producto_titulo" id="producto1">HUMITA</h2>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                    <p class="producto_precio">$480</p>
+                    </div>  
+            
+                    <!-- ventana modal -->
+                    <div class="popup" id="modal1">
+                        <a class="popup__overlay" href="#producto1"></a>
+                        <div class="popup__wrapper">
+                            <div class="popup__close-background"></div>
+                            <a class="popup__close" href="#producto1">X</a>
+                            <div class="contenido_modal">
+                                <div class="contenedor-imagen_modal">
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
+                                </div>
+            
+                                <div class="modal-info">
+                                    <div class="modal_descripcion">
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- JAMON Y QUESO -->
+                <div class="producto">
+                    <!-- imagen producto -->
+                    <a class="button" href="#modal1">
+                        <div class="contenedor-producto_imagen">
+                            <img
+                                class="producto_imagen"
+                                src="./imgs/empanadas.jpg" 
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                    <!-- descripcion producto -->
+                    <div class="producto_detalles">
+                    <!-- titulo producto -->
+                    <h2 class="producto_titulo" id="producto1">JAMON Y QUESO</h2>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                    <p class="producto_precio">$480</p>
+                    </div>  
+            
+                    <!-- ventana modal -->
+                    <div class="popup" id="modal1">
+                        <a class="popup__overlay" href="#producto1"></a>
+                        <div class="popup__wrapper">
+                            <div class="popup__close-background"></div>
+                            <a class="popup__close" href="#producto1">X</a>
+                            <div class="contenido_modal">
+                                <div class="contenedor-imagen_modal">
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
+                                </div>
+            
+                                <div class="modal-info">
+                                    <div class="modal_descripcion">
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CEBOLLA Y QUESO -->
+                <div class="producto">
+                    <!-- imagen producto -->
+                    <a class="button" href="#modal1">
+                        <div class="contenedor-producto_imagen">
+                            <img
+                                class="producto_imagen"
+                                src="./imgs/empanadas.jpg" 
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                    <!-- descripcion producto -->
+                    <div class="producto_detalles">
+                    <!-- titulo producto -->
+                    <h2 class="producto_titulo" id="producto1">CEBOLLA Y QUESO</h2>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                    <p class="producto_precio">$480</p>
+                    </div>  
+            
+                    <!-- ventana modal -->
+                    <div class="popup" id="modal1">
+                        <a class="popup__overlay" href="#producto1"></a>
+                        <div class="popup__wrapper">
+                            <div class="popup__close-background"></div>
+                            <a class="popup__close" href="#producto1">X</a>
+                            <div class="contenido_modal">
+                                <div class="contenedor-imagen_modal">
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
+                                </div>
+            
+                                <div class="modal-info">
+                                    <div class="modal_descripcion">
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CALABRESA -->
+                <div class="producto">
+                    <!-- imagen producto -->
+                    <a class="button" href="#modal1">
+                        <div class="contenedor-producto_imagen">
+                            <img
+                                class="producto_imagen"
+                                src="./imgs/empanadas.jpg" 
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                    <!-- descripcion producto -->
+                    <div class="producto_detalles">
+                    <!-- titulo producto -->
+                    <h2 class="producto_titulo" id="producto1">CALABRESA</h2>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                    <p class="producto_precio">$480</p>
+                    </div>  
+            
+                    <!-- ventana modal -->
+                    <div class="popup" id="modal1">
+                        <a class="popup__overlay" href="#producto1"></a>
+                        <div class="popup__wrapper">
+                            <div class="popup__close-background"></div>
+                            <a class="popup__close" href="#producto1">X</a>
+                            <div class="contenido_modal">
+                                <div class="contenedor-imagen_modal">
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
+                                </div>
+            
+                                <div class="modal-info">
+                                    <div class="modal_descripcion">
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CAPRESSE -->
+                <div class="producto">
+                    <!-- imagen producto -->
+                    <a class="button" href="#modal1">
+                        <div class="contenedor-producto_imagen">
+                            <img
+                                class="producto_imagen"
+                                src="./imgs/empanadas.jpg" 
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                    <!-- descripcion producto -->
+                    <div class="producto_detalles">
+                    <!-- titulo producto -->
+                    <h2 class="producto_titulo" id="producto1">CAPRESSE</h2>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                    <p class="producto_precio">$480</p>
+                    </div>  
+            
+                    <!-- ventana modal -->
+                    <div class="popup" id="modal1">
+                        <a class="popup__overlay" href="#producto1"></a>
+                        <div class="popup__wrapper">
+                            <div class="popup__close-background"></div>
+                            <a class="popup__close" href="#producto1">X</a>
+                            <div class="contenido_modal">
+                                <div class="contenedor-imagen_modal">
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
+                                </div>
+            
+                                <div class="modal-info">
+                                    <div class="modal_descripcion">
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PANCETA Y CIRUELA -->
+                <div class="producto">
+                    <!-- imagen producto -->
+                    <a class="button" href="#modal1">
+                        <div class="contenedor-producto_imagen">
+                            <img
+                                class="producto_imagen"
+                                src="./imgs/empanadas.jpg" 
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                    <!-- descripcion producto -->
+                    <div class="producto_detalles">
+                    <!-- titulo producto -->
+                    <h2 class="producto_titulo" id="producto1">PANCETA Y CIRUELA</h2>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                    <p class="producto_precio">$480</p>
+                    </div>  
+            
+                    <!-- ventana modal -->
+                    <div class="popup" id="modal1">
+                        <a class="popup__overlay" href="#producto1"></a>
+                        <div class="popup__wrapper">
+                            <div class="popup__close-background"></div>
+                            <a class="popup__close" href="#producto1">X</a>
+                            <div class="contenido_modal">
+                                <div class="contenedor-imagen_modal">
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
+                                </div>
+            
+                                <div class="modal-info">
+                                    <div class="modal_descripcion">
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CUATRO QUESOS -->
+                <div class="producto">
+                    <!-- imagen producto -->
+                    <a class="button" href="#modal1">
+                        <div class="contenedor-producto_imagen">
+                            <img
+                                class="producto_imagen"
+                                src="./imgs/empanadas.jpg" 
+                                alt=""
+                            />
+                        </div>
+                    </a>
+                    <!-- descripcion producto -->
+                    <div class="producto_detalles">
+                    <!-- titulo producto -->
+                    <h2 class="producto_titulo" id="producto1">CUATRO QUESOS</h2>
+                    <p class="producto_texto-descripcion">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                    <p class="producto_precio">$480</p>
+                    </div>  
+            
+                    <!-- ventana modal -->
+                    <div class="popup" id="modal1">
+                        <a class="popup__overlay" href="#producto1"></a>
+                        <div class="popup__wrapper">
+                            <div class="popup__close-background"></div>
+                            <a class="popup__close" href="#producto1">X</a>
+                            <div class="contenido_modal">
+                                <div class="contenedor-imagen_modal">
+                                    <img src="./imgs/muzzarella.jpg" alt="imagen de una pizza" />
+                                </div>
+            
+                                <div class="modal-info">
+                                    <div class="modal_descripcion">
+                                        <h2 class="modal_descripcion-titulo">MOZZARELLA</h2>
+                                        <p class="modal_descripcion-producto">Salsa de tomate, mozzarella, aceitunas y orégano.</p>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </section>
         <div class="botonflotante">
             <a
-                href="https://wa.me/message/FHS2SGO7SAZDD1"
+                href="https://wa.me/message/7CQG45OB76SPC1"
                 class="btn_whatsapp"
                 target="_blank"
             >
